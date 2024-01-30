@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    padding-top: 10px;
+}
