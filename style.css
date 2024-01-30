@@ -9,6 +9,12 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+main {
+    background-color: rgba(244, 244, 244, 0.849);
+    padding: 50px;
+
+}
+
 /* titolo with logo */
 .title {
     display: inline-block;
@@ -28,9 +34,15 @@ body {
 /* first part container with all the features */
 
 .container {
-    padding-top: 100px;
+
     max-width: 800px;
     margin: 0 auto;
+    margin-bottom: 5px;
+    background-color: white;
+    border: 1px solid rgba(244, 244, 244, 0.849);
+    border-radius: 5px;
+    padding-left: 50px;
+    padding top: 8px;
 
 }
 
@@ -44,6 +56,7 @@ body {
     line-height: 25px;
     text-align: center;
     display: inline-block;
+    margin: 15px;
 }
 
 .section {
@@ -82,7 +95,8 @@ body {
     color: #434851;
     margin-top: 10px;
     display: inline-block;
-    f
+    padding: 8px;
+
 }
 
 .editorial {
@@ -116,4 +130,19 @@ body {
     height: 23px;
 }
 
+.red {
+    border: 1px solid #ff6565;
+    color: #ff6565;
+}
+
 /* /different style of the second part */
+
+/* /different style of the third partt */
+.website {
+    background-color: #ec4a9d;
+
+}
+
+.sales {
+    background-color: #a3d116;
+}
