@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* titolo with logo */
 .title {
     display: inline-block;
     vertical-align: middle;
@@ -21,6 +22,10 @@ body {
     padding-left: 20px;
     padding-top: 10px;
 }
+
+/* /title with logo */
+
+/* first part container with all the features */
 
 .container {
     padding-top: 100px;
@@ -82,7 +87,7 @@ body {
 
 .editorial {
     display: inline-block;
-    background-color: rgb(9, 169, 237);
+    background-color: #09a9ed;
     border-radius: 10px;
     text-align: center;
     font-size: 10px;
@@ -92,3 +97,23 @@ body {
     line-height: 20px;
 
 }
+
+/*/first part container with all the features */
+
+/* different style of the second part */
+
+.Q1-goals {
+    background-color: #ab5de6;
+}
+
+.recruiting {
+    background-color: #2cc6ab;
+}
+
+.mobile {
+    background-color: #ff9b00;
+    width: 48px;
+    height: 23px;
+}
+
+/* /different style of the second part */
